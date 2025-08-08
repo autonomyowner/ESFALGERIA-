@@ -4,6 +4,11 @@ import { buildWhatsAppLink } from '../../lib/whatsapp'
 export default function Hero() {
   return (
     <div className="relative overflow-hidden rounded-3xl p-8 sm:p-12 bg-gradient-to-br from-slate-900 via-slate-700 to-slate-900 animate-premium-gradient border border-slate-800 shadow-glass">
+      {/* Background image layer */}
+      <div
+        className="absolute inset-0 bg-[url('/maradona.png')] bg-cover bg-center opacity-20"
+        aria-hidden
+      />
       <div className="relative z-10 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
           اشحن عملات FC بسرعة وأمان
