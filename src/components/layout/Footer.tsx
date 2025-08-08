@@ -1,4 +1,5 @@
 import { buildWhatsAppLink, getOwnerName } from '../../lib/whatsapp'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   const owner = getOwnerName()
@@ -9,8 +10,8 @@ export default function Footer() {
           واتساب: <a className="underline decoration-dotted" href={buildWhatsAppLink('السلام عليكم')}>تواصل معنا</a> — {owner}
         </p>
         <nav className="flex items-center gap-3">
-          <a className="text-slate-400 hover:text-slate-200" href="#">الشروط</a>
-          <a className="text-slate-400 hover:text-slate-200" href="#">سياسة الاسترجاع</a>
+          <Link className="text-slate-400 hover:text-slate-200" to="/terms">الشروط</Link>
+          <Link className="text-slate-400 hover:text-slate-200" to="/refund">سياسة الاسترجاع</Link>
         </nav>
       </div>
     </footer>

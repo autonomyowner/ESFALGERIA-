@@ -52,8 +52,8 @@ This plan splits the PRD into clear, actionable tasks. Order is optimized for fa
 - [ ] Lighthouse pass (mobile) target LCP < 2.5s
 
 ## Phase 7 — Policies & Trust
-- [ ] Terms and Refund static pages
-- [ ] Trust statements on delivery safety
+- [x] Terms and Refund static pages
+- [x] Trust statements on delivery safety
 
 ## Phase 8 — Analytics & Deploy
 - [ ] Add Google Analytics or Plausible
