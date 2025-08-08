@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  @apply font-arabic bg-slate-950 text-slate-100 antialiased selection:bg-yellow-500/30 selection:text-yellow-50;
+  @apply font-arabic bg-slate-950 text-slate-100 antialiased selection:bg-yellow-500/30 selection:text-yellow-50 leading-relaxed;
 }
 
 /* Components API */

@@ -56,12 +56,11 @@ This plan splits the PRD into clear, actionable tasks. Order is optimized for fa
 - [x] Trust statements on delivery safety
 
 ## Phase 8 — Analytics & Deploy
-- [ ] Add Google Analytics or Plausible
-- [ ] Configure domain and deploy (Vercel/Netlify)
+- [ ] (Removed per request)
 
 ## Phase 9 — Content Finalization (Arabic)
-- [ ] Finalize Arabic copy for all sections
-- [ ] Review RTL spacing and typography
+- [x] Finalize Arabic copy for all sections
+- [x] Review RTL spacing and typography
 
 ## Optional Enhancements
 - [ ] Micro-animations (button shimmer, gradient motion)

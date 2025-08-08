@@ -18,10 +18,10 @@ function ServiceCard({ icon, title, description }: { icon: React.ReactNode; titl
 export default function Services() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <ServiceCard icon={<IconExchange size={22} />} title="Trading" description="تداول آمن بإشراف فريقنا" />
-      <ServiceCard icon={<IconRocket size={22} />} title="Boosting" description="رفع تقييم فريقك بأمان" />
-      <ServiceCard icon={<IconCash size={22} />} title="Sell" description="بع عملاتك لنا بأفضل سعر" />
-      <ServiceCard icon={<IconGift size={22} />} title="Rewards" description="اكسب نقاط ومكافآت على كل عملية" />
+      <ServiceCard icon={<IconExchange size={22} />} title="التداول" description="تداول آمن بإشراف فريقنا" />
+      <ServiceCard icon={<IconRocket size={22} />} title="البوستينغ" description="رفع تقييم فريقك بأمان" />
+      <ServiceCard icon={<IconCash size={22} />} title="البيع لنا" description="بع عملاتك لنا بأفضل سعر" />
+      <ServiceCard icon={<IconGift size={22} />} title="المكافآت" description="اكسب نقاط ومكافآت على كل عملية" />
     </div>
   )
 }

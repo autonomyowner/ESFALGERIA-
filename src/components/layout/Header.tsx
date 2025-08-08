@@ -15,19 +15,19 @@ export default function Header() {
       </div>
       <nav className="hidden sm:flex items-center gap-1">
         <NavLink to="/trading" className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
-          Trading
+          التداول
         </NavLink>
         <NavLink to="/boosting" className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
-          Boosting
+          البوستينغ
         </NavLink>
         <NavLink to="/sell" className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
-          Sell
+          البيع لنا
         </NavLink>
         <NavLink to="/rewards" className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
-          Rewards
+          المكافآت
         </NavLink>
         <NavLink to="/faq" className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
-          FAQ
+          الأسئلة الشائعة
         </NavLink>
       </nav>
       <div className="flex items-center gap-2">
