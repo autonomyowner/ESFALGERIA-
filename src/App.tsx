@@ -11,6 +11,7 @@ const FAQPage = lazy(() => import('./pages/FAQ'))
 const TermsPage = lazy(() => import('./pages/Terms'))
 const RefundPage = lazy(() => import('./pages/Refund'))
 const ChallengesPage = lazy(() => import('./pages/Challenges'))
+const NewsPage = lazy(() => import('./pages/News'))
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="terms" element={<TermsPage />} />
           <Route path="refund" element={<RefundPage />} />
           <Route path="challenges" element={<ChallengesPage />} />
+          <Route path="news" element={<NewsPage />} />
         </Route>
       </Routes>
     </Suspense>

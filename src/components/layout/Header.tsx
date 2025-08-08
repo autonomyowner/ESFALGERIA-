@@ -27,6 +27,9 @@ export default function Header() {
       </div>
       {/* Desktop nav */}
       <nav className="hidden sm:flex items-center gap-1">
+        <NavLink to="/news" className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
+          اخبار
+        </NavLink>
         <NavLink to="/challenges" className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
           تحديات و حلول
         </NavLink>
@@ -68,6 +71,9 @@ export default function Header() {
       <div className="container pb-3">
         <div className="mt-2 rounded-2xl border border-slate-800 bg-slate-900/80 backdrop-blur shadow-glass">
           <nav className="flex flex-col p-2">
+            <NavLink to="/news" onClick={handleCloseMenu} className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
+              اخبار
+            </NavLink>
             <NavLink to="/challenges" onClick={handleCloseMenu} className={({ isActive }) => `${navLinkBase} ${isActive ? navActive : ''}`.trim()}>
               تحديات و حلول
             </NavLink>
